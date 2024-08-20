@@ -9,6 +9,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.11.0"
+  atom:
+    dependency: "direct main"
+    description:
+      name: atom
+      sha256: a74657a3e1d80fd6fca7706ad9d20012b35fb3296e1ba2a1c07acec9c4475afd
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.3"
   boolean_selector:
     dependency: transitive
     description:

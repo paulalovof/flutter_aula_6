@@ -1,11 +1,11 @@
-import 'package:asp/asp.dart';
+//import 'package:asp/asp.dart';
 
-import '../../../core/errors/errors_classes.dart';
-import '../../../core/errors/errors_messagens.dart';
-import '../../../domain/usecase/get_by_id_pet_use_case_impl.dart';
-import '../../../domain/usecase/update_pet_use_case_impl.dart';
-import '../../../domain/usecase/use_case_contract.dart';
-import '../../state/pet_state.dart';
+import '../../../../core/errors/errors_classes.dart';
+import '../../../../core/errors/errors_messagens.dart';
+import '../../../../domain/usecase/get_by_id_user_use_case_impl.dart';
+import '../../../domain/usecase/update_user_use_case_impl.dart';
+import '../../../../domain/usecase/use_case_contract.dart';
+import '../../../state/user_state.dart';
 import '../atom/user_detail_atom.dart';
 
 class PetDetailReducer extends Reducer {
